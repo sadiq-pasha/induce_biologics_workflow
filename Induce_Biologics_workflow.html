@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Induce Biologics Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: linear-gradient(to bottom right, aliceblue , white);
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin: 0;
+      background-image: linear-gradient(to bottom right, #4218B8, #00C0FF);
+    }
+    .page {
+      margin: auto;
+      width: 90%;
+    }
+    .flowchart-image {
+      width: 100%;
+      border: black 2px solid;
+    }
+    .flowchart-div {
+      text-align: center;
+    }
+    .flowchart-section-header {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img width="75" height="70" src="https://www.inducebiologics.online/wp-content/uploads/2022/01/Induce_logo_white_2.png" alt="">
+    <h1>Induce Biologics</h1>
+  </div>
+  <div class="page">
+    <p>
+      Workflow Diagrams (click to navigate)
+      <ul>
+        <li>
+          <a href="#customer-shipment-request">
+            Customer Shipment Request
+          </a>
+        </li>
+        <li>
+          <a href="#usage-form-submission">
+            Usage Form Submission
+          </a>
+        </li>
+      </ul>
+    </p>
+    <p>
+      Terms definitions: 
+      <ul>
+        <li>
+          Client
+        </li>
+        <li>
+          Supplier
+        </li>
+        <li>
+          Consignment
+        </li>
+        <li>
+          Warehouse
+        </li>
+        <li>
+          Dropship
+        </li>
+        <li>
+          Induce
+        </li>
+        <li>
+          Usage Sheet
+        </li>
+        <li>
+          Order Form
+        </li>
+        <li>
+          Purchase Order
+        </li>
+        <li>
+          Sales Order
+        </li>
+        <li>
+          Transfer Order
+        </li>
+      </ul>
+    </p>
+    <div class="flowchart-section" id="customer-shipment-request">
+      <h1 class="flowchart-section-header">
+        Customer Shipment Request:
+      </h1>
+      <div class="flowchart-div">
+        <img class="flowchart-image" src="customer_shipment_request.svg" alt="customer flowchart">
+      </div>
+    </div>
+    <div class="flowchart-section" id="usage-form-submission">
+      <h1 class="flowchart-section-header">
+        Usage Form Submission:
+      </h1>
+      <div class="flowchart-div">
+        <img class="flowchart-image" src="usage_form_submission.svg" alt="customer flowchart">
+      </div>
+    </div>
+    <div id="footer">
+      This is the footer
+    </div>
+  </div>
+</body>
+</html>
